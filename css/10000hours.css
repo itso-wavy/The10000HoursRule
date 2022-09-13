@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: 'OTEnjoystoriesBA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
@@ -26,4 +27,29 @@
     src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+/* Components */
+body {
+    background-color: #5b2386;
+    text-align: center;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.header {
+    margin: 120px auto 0;
+    background-image: url(../img/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 265px;
+}
+
+.header img {
+    width: 564px;
+    margin-top: 100pxㅎㅎㅎㅎㅎ;
+
 }
