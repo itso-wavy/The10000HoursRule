@@ -232,7 +232,7 @@ input::placeholder {
 
 /* 모달 */
 #modal {
-    display: flex;
+    display: none;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -253,21 +253,22 @@ input::placeholder {
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
+    padding: 60px;
 }
 
 #modal .tit-modal {
-
+    width: 396px;
 }
 
 #modal .cont-modal {
-
+    width: 233px;
+    margin: 30px;
 }
 
 #modal .img-licat {
-
+    width: 70%;
 }
 
 #modal .btn-close {
-
+    margin: 40px auto 0;
 }
-
